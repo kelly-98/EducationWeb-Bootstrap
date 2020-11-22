@@ -1,0 +1,135 @@
+.contact-carousel{
+    height: 300px;
+    background-image: url(../images/banner1.jpg);
+    background-position: center center;
+}
+
+.contact-section{
+    padding: 3rem 15px;
+}
+
+.contact-title h1{
+    color: #ff4f81;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-title span{
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.contact-title__line{
+    width: 70px;
+    height: 2px;
+    background-color: black;
+}
+
+.contact-content{
+    min-height: 300px;
+}
+
+.contact-info{
+    background-color: #0e0e0e;
+    padding: 2em;
+}
+
+.contact-info h3{
+    font-size: 1.4em;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.contact-info-detail{
+    margin-bottom: 30px;
+}
+
+.contact-info-detail div{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ddd;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 20px;
+}
+
+.contact-info-detail div i{
+    font-size: 20px;
+}
+
+.contact-info-img{
+    background-image: url('../images/g11.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-info-detail h4{
+    font-size: 600;
+    color: #ff4f81;
+    font-size: 1em;
+}
+
+.contact-info-detail span{
+    color: #999;
+    font-size: 0.9em;
+    line-height: 1.8em;
+}
+
+.contact-info__social i{
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: white;
+    transition: all .5s;
+    margin-right: 10px;
+}
+
+.contact-info__social i:first-child{
+    color: #3b5998;
+}
+
+.contact-info__social i:nth-child(2){
+    color: #1da1f2;
+}
+
+.contact-info__social i:last-child{
+    color: #f26522;
+}
+
+.contact-info__social i:first-child:hover{
+    background-color: #3b5998;
+    color: white;
+}
+
+.contact-info__social i:nth-child(2):hover{
+    background-color: #1da1f2;
+    color: white;
+}
+
+.contact-info__social i:last-child:hover{
+    background-color: #f26522;
+    color: white;
+}
+
+.contact-form input, .contact-form textarea{
+    padding: 14px;
+    border-radius: 0;
+    background-color: #f5f5f5;
+}
+
+.btn-contact-submit{
+    background-color: #ec1955;
+    color: white;
+    border-radius: 0;
+    margin-top: 11.3px;
+    transition: all 0.5s;
+}
+
+.btn-contact-submit:hover{
+    background-color: #ff4f81;
+}
